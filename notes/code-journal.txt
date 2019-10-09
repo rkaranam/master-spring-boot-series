@@ -1,0 +1,18 @@
+Day 04: 09-Oct-2019
+Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
+1. Completed Step 09: Magic of Spring
+             Step 10: Create TodoController, list-todos view and TodoService
+             Step 11: Architecture of Web Applications
+2. Learnt how below annotations work in a Spring Boot application
+    a. @Component, @Controller, @Service and @Repository
+    b. @Autowired
+    c. @ComponentScan
+3. Completed a POC that explains how @ComponentScan works
+4. Created a TodoController(controller) which redirects requests to TodoService(service)
+   and presents the data retrieved on a list-todos.jsp page(view)
+5. Used a in-memory static arraylist of todos, which we will change in later point of course
+6. Now, flow of the application is as follows:
+    Browser -> /login -> LoginController -> LoginService -> validateUser
+    -> false -> Invalid Credentials -> login.jsp
+    -> true -> welcome.jsp -> Todos Link -> /list-todos -> TodoController
+    -> TodoService -> todos -> list-todos.jsp
