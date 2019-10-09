@@ -1,5 +1,6 @@
 package com.in28minutes.springboot.web.controller;
 
+import com.in28minutes.dummy.DummyService;
 import com.in28minutes.springboot.web.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,6 +12,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class LoginController {
+
+    @Autowired
+    private DummyService dummyService;
 
     @Autowired // Inject Automatically
     private LoginService loginService;
