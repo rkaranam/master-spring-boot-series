@@ -6,10 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 import java.util.List;
 
 @Controller
+@SessionAttributes("login_name")
 public class TodoController {
 
     @Autowired
@@ -17,7 +19,8 @@ public class TodoController {
 
     @RequestMapping("/list-todos")
     public String listTodos(ModelMap model) {
-        List<Todo> todos = todoService.retrieveTodos("rkaranam");
+        String userName = (String) model.get("login_name");
+        List<Todo> todos = todoService.retrieveTodos(userName);
         model.put("todos", todos);
         return "list-todos";
     }

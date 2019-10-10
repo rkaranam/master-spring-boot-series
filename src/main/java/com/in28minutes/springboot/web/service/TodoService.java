@@ -12,7 +12,7 @@ import java.util.List;
 public class TodoService {
 
     private static List<Todo> todoList = new ArrayList<>();
-    private static int todoCount = 5;
+    private static int todoCount = 6;
 
     static {
         todoList.add(new Todo(101, "in28Minutes", "Learn Spring MVC", new Date(), false));
@@ -20,6 +20,7 @@ public class TodoService {
         todoList.add(new Todo(103, "in28Minutes", "Learn Hibernate", new Date(), false));
         todoList.add(new Todo(104, "rkaranam", "Learn VueJS", new Date(), false));
         todoList.add(new Todo(105, "in28Minutes", "Learn Microservices", new Date(), false));
+        todoList.add(new Todo(106, "tester", "Learn Mockito", new Date(), false));
     }
 
     public List<Todo> retrieveTodos(String userName) {
