@@ -18,13 +18,17 @@ Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
     -> TodoService -> todos -> list-todos.jsp
 
 
-Day 04: 09-Oct-2019
+Day 05: 10-Oct-2019
 Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
-1. Completed Step 09: Magic of Spring
-             Step 10: Create TodoController, list-todos view and TodoService
-             Step 11: Architecture of Web Applications
+1. Completed Step 12: Session vs Model vs Request - @SessionAttributes
 2. Session is the way to store values across multiple requests
 3. Values in request are request scope
 4. Values in model are by default request scope
 5. Http is a stateless protocol
 6. @SessionAttributes to store values across multiple request - Session
+
+Day 06: 11-Oct-2019
+Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
+1. Completed Step 13: Add new todo
+2. Learnt how to redirect to another request mapping from the controller's method
+3. Add 'redirect:/mapping' instead of view

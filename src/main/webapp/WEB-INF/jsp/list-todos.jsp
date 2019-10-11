@@ -7,8 +7,8 @@
     <title>Todos List</title>
 </head>
 <body>
-    <h3>Your Todos List:</h3>
+    <h3>Here is the list of ${login_name} todos:</h3>
     <p>${todos}</p>
-    <h4>Your name is ${login_name}</h4>
+    <h4><a href="/add-todo">Add a Todo</a></h4>
 </body>
 </html>
