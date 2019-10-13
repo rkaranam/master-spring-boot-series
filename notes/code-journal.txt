@@ -17,7 +17,6 @@ Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
     -> true -> welcome.jsp -> Todos Link -> /list-todos -> TodoController
     -> TodoService -> todos -> list-todos.jsp
 
-
 Day 05: 10-Oct-2019
 Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
 1. Completed Step 12: Session vs Model vs Request - @SessionAttributes
@@ -32,3 +31,16 @@ Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
 1. Completed Step 13: Add new todo
 2. Learnt how to redirect to another request mapping from the controller's method
 3. Add 'redirect:/mapping' instead of view
+
+Day 07: 12-Oct-2019
+Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
+1. Completed Step 14: Display Todos in a table format using JSTL tags
+2. Added jstl dependency in pom.xml. Added jstl core taglib top of list-todos.jsp page
+3. Learnt how to display todos using jstl <c:forEach> tag.
+
+Day 08: 13-Oct-2019
+Udemy Course: Learn Spring Boot in 100 Steps - Beginner to Expert
+1. Completed Step 15: Bootstrap for Page formatting using webjars
+2. Webjars is the way of adding static files(bootstrap, jquery etc.) as dependencies to project
+3. Added boostrap css functionalities list-todos.jsp page
+4. Played around with bootstrap css classes: table table-striped, container
