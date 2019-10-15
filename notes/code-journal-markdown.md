@@ -1,6 +1,6 @@
 ## Learn Spring Boot in 100 Steps - Beginner to Expert :rocket:
 
-###Day 04: 09-Oct-2019
+### Day 04: 09-Oct-2019
  
 - [x] 09: Magic of Spring
 - [x] 10: Create TodoController, list-todos view and TodoService
@@ -21,7 +21,7 @@
     -> TodoService -> todos -> list-todos.jsp
    ```
 
-###Day 05: 10-Oct-2019
+### Day 05: 10-Oct-2019
 - [x] 12: **Session vs Model vs Request - _@SessionAttributes_**
 1. Session is the way to store values across multiple requests
 2. Values in request are request scope
@@ -29,17 +29,17 @@
 4. Http is a stateless protocol
 5. _@SessionAttributes_ to store values across multiple request - Session
 
-###Day 06: 11-Oct-2019
+### Day 06: 11-Oct-2019
 - [x] 13: Add new todo
 1. Learnt how to redirect to another request mapping from the controller's method
 2. Add **'redirect:/mapping'** instead of view
 
-###Day 07: 12-Oct-2019
+### Day 07: 12-Oct-2019
 - [x] 14: Display Todos in a table format using **JSTL** tags
 1. Added jstl dependency in pom.xml. Added jstl core taglib top of list-todos.jsp page
 2. Learnt how to display todos using jstl **<c:forEach>** tag.
 
-###Day 08: 13-Oct-2019
+### Day 08: 13-Oct-2019
 - [x] 15: Bootstrap for Page formatting using _webjars_
 - [x] 16: Delete a todo
 - [x] 17: Format add Todo page and adding basic HTML5 form validation
@@ -53,7 +53,7 @@
 7. Formatted add-todo page with bootstrap css classes: _**btn btn-success, <fieldset>, form-group, form-control**_
 8. Added basic HTML5 validation using _**required="required"**_ for input
 
-###Day 09: 14-Oct-2019
+### Day 09: 14-Oct-2019
 - [x] 18: Part 1 Validations with Hibernate Validator - Using **commandBean**
 2. Learnt how to map entire bean to a _**FormBacking Object or commandBean**_ instead of several request params
 3. Latest version of spring mvc use _**modelAttribute**_ in form instead of old commandBean
