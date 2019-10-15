@@ -14,6 +14,7 @@
             <fieldset class="form-group">
                 <form:label for="description" path="description">Description</form:label>
                 <form:input type="text" id="description" path="description" class="form-control" required="required"/>
+                <form:errors path="description" cssClass="text-warning"/>
             </fieldset>
             <button type="submit" class="btn btn-success">Add Todo</button>
         </form:form>

@@ -55,7 +55,15 @@
 
 ### Day 09: 14-Oct-2019
 - [x] 18: Part 1 Validations with Hibernate Validator - Using **commandBean**
-2. Learnt how to map entire bean to a _**FormBacking Object or commandBean**_ instead of several request params
-3. Latest version of spring mvc use _**modelAttribute**_ in form instead of old commandBean
-4. Use spring form tags - for both side binding. Values from the form are bound to the bean and
+1. Learnt how to map entire bean to a _**FormBacking Object or commandBean**_ instead of several request params
+2. Latest version of spring mvc use _**modelAttribute**_ in form instead of old commandBean
+3. Use spring form tags - for both side binding. Values from the form are bound to the bean and
    values from bean are bound to the form
+   
+### Day 10: 15-Oct-2019
+- [x] 18: Part 2 Using **JSR 349 validations**
+1. We added validation on Todo bean using _**@Size**_ of java validation API
+2. After adding validation on the bean, we added **@Valid** to enable validation on controller
+3. Once we add _@Valid_ annotation on the bean, the result will be populated in the **BindingResult**
+4. We checked if BindingResult has any errors, if any return user to todo.jsp page
+5. In todo.jsp page, we added **<form-errors path=desc>** to show errors related to description field 
